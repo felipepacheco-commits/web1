@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tittle>Formulario</tittle>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="listas.html">Listas</a>
+        </li>
+        <li>
+            <a href="imagem.html">Imagem</a>
+        </li>
+        <li>
+            <a href="tabelas.html">Tabela</a>
+        </li>
+
+    </ul>
+
+    <h2>Formulario</h2>
+    <form>
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="idade">Idade: </label>
+            <input type="number" min="0" max="120">
+        </div>
+        <br>
+        <div>
+            <label for="Usuario">Usuario: </label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha: </label>
+            <input type="password">
+        </div>
+        <br>
+        <div>
+            <label for="DataEvento">Data do Evento</label>
+            <input type="datetime-local">
+        </div>
+        <br>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" required placeholder="(xx)xxxxx-xxxx">
+        </div>
+        <br>
+        <div>
+            <label for="peso">Peso: </label>
+            <input type="number" min="0" max="120" step="0.5">
+        </div>
+        <br>
+        <div>
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" step="0.5">
+        </div>
+        <br>
+
+        <div>
+            <fieldset>
+                <p>
+
+                <legend>Estado Civil</legend>
+
+                <p>
+                <label for="est-civil"></label>
+                <input name="est-civil" type="radio" value="casado">casado
+                </p> 
+
+                <p>
+                <label for="est-civil"></label>
+                <input name="est-civil" type="radio" value="divorciado">divorciado
+                </p>
+
+                <p>
+                <label for="est-civil"></label>
+                <input name="est-civil" type="radio" value="solteiro">solteiro
+                </p>
+
+                <p>
+            </fieldset>
+            <div>
+                <fieldset>
+                    <legend>Produtos</legend>
+
+                    <p> 
+                        <label>
+                            <input type="checkbox" name="computador" value="Computador">Computador
+                        </label>
+                    </p>
+
+                    <p> 
+                        <label>
+                            <input type="checkbox" name="impressora" value="Impressora">Impressora
+                        </label>
+                    </p>
+                    
+                    <p> 
+                        <label>
+                            <input type="checkbox" name="monitor" value="monitor">Monitor 
+                        </label>
+                    </p>
+
+                </fieldset>
+            </div>
+            <br>
+
+            <div>
+                <label>
+                    Deixe sua sugestão:<br>
+                    <textarea cols="30" rows="5"></textarea>
+                </label>
+            </div>
+            <br>
+
+        <button type="submit">Enviar</button>
+   </form>
+</body>
+
+</html>
