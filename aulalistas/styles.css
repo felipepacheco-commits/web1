@@ -1,12 +1,19 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+}
 body {
-    background-color: #12374d;
+    background: linear-gradient(to bottom, #070a16 0%, #0d1024  33%,#1f2338 66%, #2e3e58 100%);
+    background-repeat: no-repeat;
     color: #4caf50;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: 100vh;
 }
 ul {
-    background-color: #272424;
+    background-color: #161515;
     overflow: hidden;
     list-style-type: none;
     margin: 0;
@@ -18,7 +25,6 @@ ul {
 ul :hover{
     color: rgb(129, 126, 126);
 }
-
 li a{
     
     display: block;
@@ -28,12 +34,16 @@ li a{
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+   
+   
 }
 li a:hover {
-    background-color: #373837;
+    background: linear-gradient(to right, #24273A, #2e3e58, #4d7493);
     color: white;
+    border-radius: 8px;
 }
 .active-link {
     background-color: #373837;
     color: #fff;
+    border-radius: 8px;
 }
